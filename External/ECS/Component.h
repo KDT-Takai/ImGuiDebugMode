@@ -4,6 +4,7 @@ class Entity;
 
 class Component {
 public:
+
 	Entity* _entity;
 
 	virtual void Update(float dt) = 0;

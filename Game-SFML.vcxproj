@@ -37,6 +37,11 @@
     <ClCompile Include="Programs\ScreenManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="External\ECS\Component.h" />
+    <ClInclude Include="External\ECS\Entity.h" />
+    <ClInclude Include="External\ECS\EntityManager.h" />
+    <ClInclude Include="External\ECS\System.h" />
+    <ClInclude Include="External\ECS\SystemManager.h" />
     <ClInclude Include="Programs\Application.h" />
     <ClInclude Include="Programs\ExampleScreen.h" />
     <ClInclude Include="Programs\ImGuiLog.h" />

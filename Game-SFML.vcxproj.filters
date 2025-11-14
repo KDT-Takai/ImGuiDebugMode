@@ -45,6 +45,24 @@
     <Filter Include="System\ImGuiLog">
       <UniqueIdentifier>{57ee8efe-c596-4748-a952-9acfe5de4b35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="External\ECS">
+      <UniqueIdentifier>{ad66d3a8-25de-4cd8-82fd-90cfe84c547c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ECS\Component">
+      <UniqueIdentifier>{4ddc49b4-e90f-4f54-8bf8-c4b435b78b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ECS\Entity">
+      <UniqueIdentifier>{7cdc6952-a22a-433c-a16b-8b3bfaf13bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ECS\EntityManager">
+      <UniqueIdentifier>{ce478ba6-0d4e-4a13-84b9-cd704c819c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ECS\System">
+      <UniqueIdentifier>{c6cc1916-f6cb-4cf0-a375-ea9dc6f87ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ECS\SystemManager">
+      <UniqueIdentifier>{48241c94-2879-4aae-8fdf-97a1e3f214f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="External\ImGui-SFML\Source\imgui-SFML.cpp">
@@ -120,6 +138,21 @@
     </ClInclude>
     <ClInclude Include="Programs\ImGuiLog.h">
       <Filter>System\ImGuiLog</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ECS\Component.h">
+      <Filter>External\ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ECS\Entity.h">
+      <Filter>External\ECS\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ECS\EntityManager.h">
+      <Filter>External\ECS\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ECS\System.h">
+      <Filter>External\ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ECS\SystemManager.h">
+      <Filter>External\ECS\SystemManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
