@@ -48,7 +48,6 @@ void Application::ProcessEvents() {
 void Application::UpdateState(const sf::Time& dt) {
     ImGui::SFML::Update(window, dt);
     InputManager::Instance().Update(window);
-
     // ‰~‚ÌˆÊ’u‚ğXV
     sf::Vector2f pos = circle.getPosition();
     pos += velocity * dt.asSeconds();
