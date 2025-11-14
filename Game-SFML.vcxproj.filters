@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="External\ImGui">
+      <UniqueIdentifier>{14ca9362-6785-4619-8e22-0ad3efc9abde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\SFML-ImGui">
+      <UniqueIdentifier>{d1cf73e7-eac0-4d5a-a6de-82090f15402d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ImGuizmo">
+      <UniqueIdentifier>{e11f1906-a571-4b0c-8e4c-d32c4580349e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="System\Main">
+      <UniqueIdentifier>{c897fcc2-b873-4b0f-acb3-fbd33ee3a744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Main\Application">
+      <UniqueIdentifier>{a54e2bd4-3007-493f-8df3-cf61ba20e46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\InputManager">
+      <UniqueIdentifier>{d986f16c-d4cb-4fb2-9054-4a3a21d4ea92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\InputManager\InputUtils">
+      <UniqueIdentifier>{8ad41ab6-6bf3-4e53-8c77-79dfabb27195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Singleton">
+      <UniqueIdentifier>{686c6349-b978-4a4a-a68e-9d22ac80888a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Screen">
+      <UniqueIdentifier>{989b241c-8c75-436b-96a6-cec0632b235e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screen">
+      <UniqueIdentifier>{3cb0ae34-07f1-40fa-87d5-403d9488df6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screen\ExampleScreen">
+      <UniqueIdentifier>{8ee9e2f9-28a4-4b12-a4a1-6fc4b2a03b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\ImGuiLog">
+      <UniqueIdentifier>{57ee8efe-c596-4748-a952-9acfe5de4b35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="External\ImGui-SFML\Source\imgui-SFML.cpp">
+      <Filter>External\SFML-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\Source\imgui.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\Source\imgui_demo.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\Source\imgui_draw.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\Source\imgui_tables.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGui\Source\imgui_widgets.cpp">
+      <Filter>External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGuizmo\Source\GraphEditor.cpp">
+      <Filter>External\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGuizmo\Source\ImCurveEdit.cpp">
+      <Filter>External\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGuizmo\Source\ImGradient.cpp">
+      <Filter>External\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGuizmo\Source\ImGuizmo.cpp">
+      <Filter>External\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImGuizmo\Source\ImSequencer.cpp">
+      <Filter>External\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Main.cpp">
+      <Filter>System\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\Application.cpp">
+      <Filter>System\Main\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\InputManager.cpp">
+      <Filter>System\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\ScreenManager.cpp">
+      <Filter>System\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Programs\ExampleScreen.cpp">
+      <Filter>Screen\ExampleScreen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Programs\Application.h">
+      <Filter>System\Main\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\InputManager.h">
+      <Filter>System\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\InputUtils.h">
+      <Filter>System\InputManager\InputUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\Singleton.h">
+      <Filter>System\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\ScreenBase.h">
+      <Filter>System\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\ScreenManager.h">
+      <Filter>System\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\ExampleScreen.h">
+      <Filter>Screen\ExampleScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Programs\ImGuiLog.h">
+      <Filter>System\ImGuiLog</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
